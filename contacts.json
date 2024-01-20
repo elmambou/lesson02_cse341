@@ -1,0 +1,31 @@
+{
+  "contact": {
+      "firstName": "Edwige",
+      "lastName": "Madison",
+      "email": "caringmother@gmail.com",
+      "favoriteColor": "Purple",
+      "birthday": "09/17/1991"
+  },
+  "contact2": {
+      "firstName": "Eric",
+      "lastName": "Mamouth",
+      "email": "ericglacier@gmail.com",
+      "favoriteColor": "Red ",
+      "birthday": "10/11/1984"
+  },
+  "contact3": {
+      "firstName": "Pauline",
+      "lastName": "MTeer",
+      "email": "pmcteer@byui.edu",
+      "favoriteColor": "Green",
+      "birthday": "12/24/1980"
+  },
+  "contact4": {
+      "firstName": "Marceline",
+      "lastName": "Jackson",
+      "email": "marcejacks@gmail.com",
+      "favoriteColor": "Yellow",
+      "birthday": "10/19/1985"
+ 
+    }
+}
