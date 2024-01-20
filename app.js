@@ -32,11 +32,11 @@ mongodb.initDb((err, mongodb) => {
     console.log(err);
   } else {
     
-   // app.listen(port);
-   // console.log(`Connected to DB and listening on ${port}`);
-  //}
+   app.listen(port);
+   console.log(`Connected to DB and listening on ${port}`);
+  }
 
-  app.listen(8080, () => {
-    console.log(`Server is running on port 8080`)
-  })
-}}); 
+  //app.listen(8080, () => {
+ //   console.log(`Server is running on port 8080`)
+ // })
+}); 
