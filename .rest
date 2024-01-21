@@ -15,15 +15,15 @@ GET http://localhost:8080/contacts/65a81e460d742a426ef7e880
 
 Render deployment
 ###
-GET https://cse341-lesson02-t504.onrender.com/contacts
+GET https://eliecse341lesson02.onrender.com/test.contacts
 
 ### 
-GET https://cse341-lesson02-t504.onrender.com/contacts/65a81d170d742a426ef7e87c
+GET https://eliecse341lesson02.onrender.com/test.contacts/65a81d170d742a426ef7e87c
 
 
 ###
-GET https://cse341-lesson02-t504.onrender.com/contacts/65a81e2d0d742a426ef7e87f
+GET https://eliecse341lesson02.onrender.com/test.contacts/65a81e2d0d742a426ef7e87f
 
 
 ###
-GET https://cse341-lesson02-t504.onrender.com/contacts/65a81e460d742a426ef7e880
+GET https://eliecse341lesson02.onrender.com/contacts/65a81e460d742a426ef7e880
