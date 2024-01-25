@@ -5,6 +5,8 @@ const MongoClient = require('mongodb').MongoClient;
 let _db;
 
 const initDb = (callback) => {
+  //adding new entry process.env.MONGODB_URI
+  console.log('Connecting to MongoDB:', process.env.MONGODB_URI);
   if (_db) {
     console.log('Db is already initialized!');
     return callback(null, _db);
@@ -15,6 +17,7 @@ const initDb = (callback) => {
       callback(null, _db);
     })
     .catch((err) => {
+      console.error('MongoDB connection error:', err);
       callback(err);
     });
 };
