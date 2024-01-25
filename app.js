@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 const app = express();
 
 app
@@ -17,12 +17,9 @@ mongodb.initDb((err, mongodb) => {
   if (err) {
     console.log(err);
   } else {
-    
-   app.listen(port);
-   console.log(`Connected to DB and listening on ${port}`);
-  }
+      app.listen(port); 
+      console.log('Web Server is listening at port ${port}');
+    }
+  });
 
-  //app.listen(8080, () => {
- //   console.log(`Server is running on port 8080`)
- // })
-}); 
+  
