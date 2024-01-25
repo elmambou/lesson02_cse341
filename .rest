@@ -1,14 +1,13 @@
 
-GET http://localhost:8080/contacts HTTP/1.1
+GET http://localhost:3000/contacts HTTP/1.1
 
 ### 
-GET http://localhost:8080/contacts/65ac73060e04952ef1da5ef6
+GET http://localhost:3000/contacts/65b2c4ac56b5c02494cbf264
 ###
-GET http://localhost:8080/contacts/65ac79567dd3c4e746d42376
-
+GET http://localhost:3000/contacts/65b2c61a2dae6b37443893b7
 
 ###
-GET http://localhost:8080/contacts/65ac796c7dd3c4e746d42377
+GET http://localhost:3000/contacts/65b2c62e2dae6b37443893b9
 
 
 Render deployment
@@ -16,13 +15,10 @@ Render deployment
 ###
 GET https://cse341lesson2.onrender.com/contacts
 ###
-GET https://cse341lesson2.onrender.com/contacts/65ac73060e04952ef1da5ef6
+GET https://cse341lesson2.onrender.com/contacts/65b2c4ac56b5c02494cbf264
 
 ### 
-GET https://cse341lesson2.onrender.com/contacts/65ac79567dd3c4e746d42376
-
+GET https://cse341lesson2.onrender.com/contacts/65b2c61a2dae6b37443893b7T 
 
 ###
-GET https://cse341lesson2.onrender.com/test.contacts/65ac796c7dd3c4e746d42377
-
-
+GET https://cse341lesson2.onrender.com/test.contacts/65b2c62e2dae6b37443893b9
