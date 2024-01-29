@@ -1,21 +1,27 @@
+### GET ALL CONTACTS
+GET http://localhost:8080/contacts HTTP/1.1
 
-GET http://localhost:3000/contacts HTTP/1.1
 
-### 
-GET http://localhost:3000/contacts/65b3a649d71ac9433a3f58eb
+### GET SINGLE CONTACT BY ID 
+GET http://localhost:8080/contacts/65b3a649d71ac9433a3f58eb
+
 ###
-GET http://localhost:3000/contacts/65b3a662d71ac9433a3f58ed
+GET http://localhost:8080/contacts/65b3a662d71ac9433a3f58ed
 
 
 
 Render deployment
 
-###
+### GET ALL CONTACTS
 GET https://lesson2-cse341winter2024.onrender.com/contacts
-###
+
+
+
+### GET SINGLE CONTACT BY ID
 GET https://lesson2-cse341winter2024.onrender.com/contacts/65b3a649d71ac9433a3f58eb
 
-### 
+
+### GET SINGLE CONTACT BY ID
 GET  https://lesson2-cse341winter2024.onrender.com/contacts/65b3a72dd71ac9433a3f58ef
 
 
